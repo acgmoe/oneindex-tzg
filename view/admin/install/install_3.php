@@ -4,7 +4,7 @@
 	
 <div class="mdui-container-fluid">
 	<div class="mdui-typo">
-	  <h1>OneIndex安装程序 <small>完成安装</small></h1>
+	  <h1>安装程序 <small>完成安装</small></h1>
 	</div>
 
 <?php if($refresh_token):?>

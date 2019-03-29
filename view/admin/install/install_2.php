@@ -4,7 +4,7 @@
 	
 <div class="mdui-container-fluid">
 	<div class="mdui-typo">
-	  <h1>OneIndex安装程序 <small>绑定OneDrive账号</small></h1>
+	  <h1>安装程序 <small>绑定OneDrive账号</small></h1>
 	</div>
 
 
