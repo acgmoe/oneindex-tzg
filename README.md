@@ -1,22 +1,23 @@
-# OneIndex
-Onedrive Directory Index
+# OneIndex - TZG
+一个OneIndex改进版，保留原版简洁的简洁。   
+原项目：[donwa/oneindex](https://github.com/donwa/oneindex)
 
 ## 功能：
 不占用服务器空间，不走服务器流量，  
 
 直接列出 OneDrive 目录，文件直链下载。  
 
-## Demo
-[https://xn.tn](https://xn.tn)  
+## 示例站
+[TZG OneDrive](https://tzg6.tech)   
+示例站正在使用[阿里云ECS](https://promotion.aliyun.com/ntms/act/qwbk.html?userCode=4wz5xqgf) 及OneIndex - TZG 开发版。
 
 ## 安装运行
 
-### 源码安装运行：
-
-#### 需求：
-1、PHP空间，PHP 5.6+ 需打开curl支持  
-2、OneDrive 账号 (个人、企业版或教育版/工作或学校帐户)  
-3、OneIndex 程序   
+### 最低配置：
+* PHP 5.6+ 需打开curl支持  
+* OneDrive 账号 (个人、企业版或教育版/工作或学校帐户)  
+* OneIndex - TZG 程序   
+* 除中国大陆外的服务器/虚拟主机一台。建议使用[阿里云ECS](https://promotion.aliyun.com/ntms/act/qwbk.html?userCode=4wz5xqgf)进行搭建。
 
 ## 配置：
 <img width="658" alt="image" src="https://raw.githubusercontent.com/donwa/oneindex/files/images/install.gif">  
@@ -30,10 +31,6 @@ Onedrive Directory Index
 # 每十分钟后台刷新一遍缓存
 */10 * * * * /具体路径/php /程序具体路径/one.php cache:refresh
 ```
-
-### Docker 安装运行
-
-- 请参考[TimeBye/oneindex](https://github.com/TimeBye/oneindex)
 
 ## 特殊文件实现功能  
 ` README.md `、`HEAD.md` 、 `.password`特殊文件使用  
