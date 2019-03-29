@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="https://cloud.i.chainwon.com/data/User/admin/home/css/main.css">
 	<script src="//cdnjs.cloudflare.com/ajax/libs/mdui/0.4.1/js/mdui.min.js"></script>
 </head>
-<body class="mdui-theme-primary-blue-grey mdui-theme-accent-blue">
+<body class="mdui-theme-primary-indigo mdui-theme-accent-blue">
 	<header class="mdui-appbar mdui-color-theme">
 		<div class="mdui-toolbar mdui-container">
 			<a href="/" class="mdui-typo-headline"><?php e(config('site_name'));?></a>

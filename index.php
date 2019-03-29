@@ -8,7 +8,7 @@ require  __DIR__.'/init.php';
 
 
 /**
- *    程序安装
+ *    OneIndex安装程序
  */
 if( empty( config('refresh_token') ) ){
 	route::any('/','AdminController@install');

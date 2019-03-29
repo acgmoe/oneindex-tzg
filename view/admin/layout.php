@@ -51,9 +51,14 @@
     </a>
 
     <a href="https://onedrive.live.com/" class="mdui-list-item" target="_blank">
-      <i class="mdui-list-item-icon mdui-icon material-icons">&#xe2bf;</i>
-      <div class="mdui-list-item-content">文件管理(OneDrive)</div>
+      <i class="mdui-list-item-icon mdui-icon material-icons">&#xe2bd;</i>
+      <div class="mdui-list-item-content">转到OneDrive</div>
+    
+    <a href="<?php echo $root?>?/admin/about" class="mdui-list-item">
+      <i class="mdui-list-item-icon mdui-icon material-icons">&#xe031;</i>
+      <div class="mdui-list-item-content">关于</div>
     </a>
+  
   </div>
 </div>
 

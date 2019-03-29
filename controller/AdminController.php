@@ -31,7 +31,7 @@ class AdminController{
 			setcookie('admin', md5(config('password').config('refresh_token')) );
 			return view::direct(get_absolute_path(dirname($_SERVER['SCRIPT_NAME'])).'?/admin/');
 		}
-		return view::load('login')->with('title', '系统管理');
+		return view::load('login')->with('title', 'OneIndex管理');
 	}
 
 	function logout(){
@@ -138,10 +138,10 @@ class AdminController{
 					config('password', $_POST['password']);
 					$message = "修改成功";
 				}else{
-					$message = "两次密码不一致，修改失败";
+					$message = "两次输入的新密码不一致，请重试。";
 				}
 			}else{
-				$message = "原密码错误，修改失败";
+				$message = "原密码错误，请重试。";
 			}
 		}
 		return view::load('setpass')->with('message', $message);
@@ -162,12 +162,12 @@ class AdminController{
 	}
 
 	function install_0(){
-		$check['php'] = version_compare(PHP_VERSION,'5.5.0','ge');
+		$check['php'] = version_compare(PHP_VERSION,'5.6.0','ge');
 		$check['curl'] = function_exists('curl_init');
 		$check['config'] = is_writable(ROOT.'config/');
 		$check['cache'] = is_writable(ROOT.'cache/');
 
-		return view::load('install/install_0')->with('title','系统安装')
+		return view::load('install/install_0')->with('title','OneIndex安装程序')
 						->with('check', $check);
 	}
 
@@ -189,13 +189,13 @@ class AdminController{
 		$ru = "https://developer.microsoft.com/en-us/graph/quick-start?appID=_appId_&appName=_appName_&redirectUrl={$redirect_uri}&platform=option-php";
 		$deepLink = "/quickstart/graphIO?publicClientSupport=false&appName=oneindex&redirectUrl={$redirect_uri}&allowImplicitFlow=false&ru=".urlencode($ru);
 		$app_url = "https://apps.dev.microsoft.com/?deepLink=".urlencode($deepLink);
-		return view::load('install/install_1')->with('title','系统安装')
+		return view::load('install/install_1')->with('title','OneIndex安装程序')
 						->with('redirect_uri', $redirect_uri)
 						->with('app_url', $app_url);
 	}
 
 	function install_2(){
-		return view::load('install/install_2')->with('title','系统安装');
+		return view::load('install/install_2')->with('title','OneIndex安装程序');
 	}
 
 	function install_3(){

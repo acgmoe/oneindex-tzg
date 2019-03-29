@@ -13,7 +13,7 @@
 		</div>
 
 		<div class="mdui-textfield">
-		  <h4>网站主题<small></small></h4>
+		  <h4>主题<small></small></h4>
 		  <select name="style" class="mdui-select">
 			  <?php 
 				foreach(scandir(ROOT.'view') as $k=>$s){
@@ -71,10 +71,6 @@
 			  <i class="mdui-switch-icon"></i>
 		  </label>
 		</div>
-		
-
-		
-
 	   <button type="submit" class="mdui-btn mdui-color-theme-accent mdui-ripple mdui-float-right">
 	   	<i class="mdui-icon material-icons">&#xe161;</i> 保存
 	   </button>

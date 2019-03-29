@@ -4,7 +4,7 @@
 	
 <div class="mdui-container-fluid">
 	<div class="mdui-typo">
-	  <h1>程序安装 <small>应用ID和机密</small></h1>
+	  <h1>OneIndex安装程序 <small>应用ID和机密</small></h1>
 	</div>
 
 	<div class="mdui-typo">

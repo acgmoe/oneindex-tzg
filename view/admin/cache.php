@@ -61,7 +61,7 @@ $script_path = $_SERVER['DOCUMENT_ROOT'].'/one.php';
 $('button[name=refresh]').on('click',function(){
 	mdui.snackbar({
 		position: 'right-top',
-		message: '正在重建缓存，请耐心等待...'
+		message: '正在重建缓存...'
 	});
 });
 </script>

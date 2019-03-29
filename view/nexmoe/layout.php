@@ -10,7 +10,7 @@
 	</style>
 	<script src="//cdnjs.loli.net/ajax/libs/mdui/0.4.1/js/mdui.min.js"></script>
 </head>
-<body class="mdui-theme-primary-blue-grey mdui-theme-accent-blue">
+<body class="mdui-theme-primary-indigo mdui-theme-accent-blue">
 	
 	<div class="mdui-container">
 	    <div class="mdui-container-fluid">
