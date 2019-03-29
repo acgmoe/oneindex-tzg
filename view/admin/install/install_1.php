@@ -17,14 +17,14 @@
 	<form action="" method="post">
 		<div class="mdui-textfield mdui-textfield-floating-label">
 			<i class="mdui-icon material-icons">https</i>
-			<label class="mdui-textfield-label">应用机密(client secret)</label>
+			<label class="mdui-textfield-label">应用机密(Client secret)</label>
 			<input type="text" type="text" class="mdui-textfield-input" name="client_secret" required value="<?php echo config('client_secret');?>"/>
 			<div class="mdui-textfield-error">应用机密不能为空</div>
 		</div>
 		<br>
 		<div class="mdui-textfield mdui-textfield-floating-label">
 		  	<i class="mdui-icon material-icons">&#xe5c3;</i>
-		  	<label class="mdui-textfield-label">应用 ID(client_id)</label>
+		  	<label class="mdui-textfield-label">应用 ID(Client_id)</label>
 		  	<input type="text" class="mdui-textfield-input" name="client_id" required value="<?php echo config('client_id');?>"/>
 		  	<div class="mdui-textfield-error">应用 ID不能为空</div>
 		</div>
@@ -32,7 +32,7 @@
 
 		<div class="mdui-textfield mdui-textfield-floating-label">
 		   <i class="mdui-icon material-icons">&#xe41a;</i>
-		   <?php if($redirect_uri == 'https://ju.tn/'):?>
+		   <?php if($redirect_uri == 'http://oneindex.tzihangu.co/'):?>
 		   <label class="mdui-textfield-label">由于你的网站不是<b>http://localhost/</b>。将通过ju.tn进行中转</label>
 		   <?php endif;?>
 		   <label class="mdui-textfield-label"><?php echo $redirect_uri;?></label>
