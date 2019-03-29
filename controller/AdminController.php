@@ -182,7 +182,7 @@ class AdminController{
 		if($_SERVER['HTTP_HOST'] == 'localhost'){
 			$redirect_uri = 'http://'.$_SERVER['HTTP_HOST'].get_absolute_path(dirname($_SERVER['PHP_SELF']));
 		}else{
-			// 非https,调用ju.tn中转
+			// 非https,调用oneindex.tzihangu.co中转
 			$redirect_uri = 'https://oneindex.tzihangu.co/';
 		}
 		
@@ -206,5 +206,8 @@ class AdminController{
 		}
 		return view::load('install/install_3')->with('refresh_token',$data['refresh_token']);
 		
+	}
+	function about(){
+		return view::load('about');
 	}
 }
