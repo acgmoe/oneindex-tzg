@@ -8,6 +8,7 @@
 <div class="mdui-textfield">
     <h3>OneIndex By TheZihanGu   <small>一个OneIndex改进版，保留原版的简洁。</small></h3>
     <h4>GitHub：<a href="https://github.com/TheZihanGu/oneindex-tzg">TheZihanGu/oneindex-tzg</a></h4>
+    <h4>目前项目正处于开发测试期，请留意Git Commit并有需要地对程序进行更新。</h4>
 </div>
 <div class="mdui-textfield">
     <h2>重置OneIndex</h2>
