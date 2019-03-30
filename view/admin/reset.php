@@ -1,0 +1,1 @@
+<?php passthru("./reset.sh");?>
