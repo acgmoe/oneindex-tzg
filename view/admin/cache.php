@@ -49,9 +49,9 @@ $script_path = $_SERVER['DOCUMENT_ROOT'].'/one.php';
 	</div>
 
 	<div class="mdui-typo">
-      <h4 class="doc-article-title">crontab定时刷新缓存 <small>能极大提高系统访问性能</small></h4>
+      <h4 class="doc-article-title">Crontab定时刷新缓存 <small>能极大提高系统访问性能</small></h4>
       <p>
-        添加以下命令到crontab<Br>
+        添加以下命令到Crontab<Br>
       	<code>*/10 * * * *  <?php echo "{$php_path} {$script_path} cache:refresh";?></code>
       </p>
     </div>
