@@ -210,4 +210,7 @@ class AdminController{
 	function about(){
 		return view::load('about');
 	}
+	function lab(){
+		return view::load('lab');
+	}
 }
