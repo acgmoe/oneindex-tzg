@@ -182,8 +182,8 @@ class AdminController{
 		if($_SERVER['HTTP_HOST'] == 'localhost'){
 			$redirect_uri = 'http://'.$_SERVER['HTTP_HOST'].get_absolute_path(dirname($_SERVER['PHP_SELF']));
 		}else{
-			// 非https,调用oneindex.tzihangu.co中转
-			$redirect_uri = 'https://oneindex.tzihangu.co/';
+			// 非https,调用中转
+			$redirect_uri = 'https://oi.tzg6.app';
 		}
 		
 		$ru = "https://developer.microsoft.com/en-us/graph/quick-start?appID=_appId_&appName=_appName_&redirectUrl={$redirect_uri}&platform=option-php";
