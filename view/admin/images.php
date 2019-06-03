@@ -6,6 +6,7 @@
 	<div class="mdui-typo">
 	  <h1> <a href="?/images/" target="_blank">图床</a> <small>OneImages</small></h1>
 	</div>
+	<h5>你可以在OneDrive新建名为“images"的文件夹手动开启它。</h5>
 	<form action="" method="post">
 		<div class="mdui-textfield">
 		  <h4>作为网站首页</h4>
