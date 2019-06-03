@@ -8,7 +8,7 @@
 直接列出 OneDrive 目录，文件直链下载。  
 
 ## 示例站
-[TZG OneDrive](https://tzg6.tech)   
+[TZG OneDrive](https://tzg6.app)   
 示例站正在使用[阿里云ECS](https://promotion.aliyun.com/ntms/act/qwbk.html?userCode=4wz5xqgf) 及OneIndex - TZG 开发版。
 
 ## 安装运行
