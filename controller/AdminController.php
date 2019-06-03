@@ -31,7 +31,7 @@ class AdminController{
 			setcookie('admin', md5(config('password').config('refresh_token')) );
 			return view::direct(get_absolute_path(dirname($_SERVER['SCRIPT_NAME'])).'?/admin/');
 		}
-		return view::load('login')->with('title', 'OneIndex管理');
+		return view::load('login')->with('title', '控制台');
 	}
 
 	function logout(){
