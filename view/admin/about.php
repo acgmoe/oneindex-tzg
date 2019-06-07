@@ -18,7 +18,7 @@
 
   <div class="mdui-dialog" id="clear">
     <div class="mdui-dialog-title">确定重置吗？</div>
-    <div class="mdui-dialog-content">你将永远丢失当前的配置！使用前请确保passthru函数已解禁。</div>
+    <div class="mdui-dialog-content">你将永远丢失当前的配置！使用前请确保passthru函数可用。</div>
     <div class="mdui-dialog-actions">
         <button class="mdui-btn mdui-ripple" mdui-dialog-close>算了吧</button>
         <a href="/view/admin/reset.php">

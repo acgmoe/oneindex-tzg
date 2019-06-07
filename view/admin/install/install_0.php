@@ -4,7 +4,7 @@
 	
 <div class="mdui-container-fluid">
 	<div class="mdui-typo">
-	  <h1>安装程序 <small>环境检测</small></h1>
+	  <h1>安装向导 <small>环境检测</small></h1>
 	</div>
 
 	<div class="mdui-table-fluid">

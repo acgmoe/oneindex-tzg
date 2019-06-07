@@ -64,7 +64,7 @@
 		</div>
 
 		<div class="mdui-textfield">
-		  <h4>去掉地址栏中的<code style="color: #c7254e;background-color: #f7f7f9;font-size:16px;">/?/</code> (需配合伪静态使用!!)</h4>
+		  <h4>去掉地址栏中的<code style="color: #c7254e;background-color: #f7f7f9;font-size:16px;">/?/</code> (需配合伪静态使用)</h4>
 		  <label class="mdui-textfield-label"></label>
 		  <label class="mdui-switch">
 			  <input type="checkbox" name="root_path" value="?" <?php echo empty($config['root_path'])?'checked':'';?>/>
