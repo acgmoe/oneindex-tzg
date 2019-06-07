@@ -13,7 +13,7 @@ class UploadController{
 				$this->scan_dir($local, $remotepath);
 				$message = "文件夹<kbd>".$local."</kbd>已添加到队列";
 			}elseif($local == realpath('.')){
-				$message = "因为安全原因，程序文件夹根目录不能上传";
+				$message = "由于安全问题，程序文件夹根目录不能被上传";
 			}else{
 				$message = "文件不存在";
 			}

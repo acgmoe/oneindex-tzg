@@ -48,7 +48,7 @@ class AdminController{
 				$message = '保存成功';
 				config('cache_type', $_POST['cache_type']);
 			} else {
-				$message = '缓存类型不可用，请确认已经安装了该拓展。';
+				$message = '缓存类型不可用，请确认已经安装了该PHP拓展。';
 				config('cache_type', 'secache');
 			}
 
