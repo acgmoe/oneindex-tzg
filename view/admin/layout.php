@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
-	<title>OneIndex 系统管理</title>
+	<title>OneIndex 控制台</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@0.4.1/dist/css/mdui.min.css" integrity="sha256-lCFxSSYsY5OMx6y8gp8/j6NVngvBh3ulMtrf4SX5Z5A=" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/mdui@0.4.1/dist/js/mdui.min.js" integrity="sha256-dZxrLDxoyEQADIAGrWhPtWqjDFvZZBigzArprSzkKgI=" crossorigin="anonymous"></script>
 	<script>$ = mdui.JQ;</script>
@@ -53,11 +53,6 @@
     <a href="https://onedrive.live.com/" class="mdui-list-item" target="_blank">
       <i class="mdui-list-item-icon mdui-icon material-icons">&#xe2bd;</i>
       <div class="mdui-list-item-content">转到OneDrive</div>
-
-      <a href="<?php echo $root?>?/admin/lab" class="mdui-list-item">
-      <i class="mdui-list-item-icon mdui-icon material-icons">&#xe146;</i>
-      <div class="mdui-list-item-content">实验室</div>
-    </a>
     
     <a href="<?php echo $root?>?/admin/about" class="mdui-list-item">
       <i class="mdui-list-item-icon mdui-icon material-icons">&#xe031;</i>
