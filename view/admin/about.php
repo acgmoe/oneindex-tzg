@@ -14,9 +14,9 @@
     <h2>重置OneIndex</h2>
     <h4>此操作允许您重新配置OneIndex，重置后当前配置将被删除，请知晓。</h4>
 	<div class="mdui-container">
-    <button class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple" mdui-dialog="{target: '#clear'}">open</button>
+    <button class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple" mdui-dialog="{target: '#reset'}">重置</button>
 
-  <div class="mdui-dialog" id="clear">
+  <div class="mdui-dialog" id="reset">
     <div class="mdui-dialog-title">确定重置吗？</div>
     <div class="mdui-dialog-content">你将永远丢失当前的配置！使用前请确保passthru函数可用。</div>
     <div class="mdui-dialog-actions">
