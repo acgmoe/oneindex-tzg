@@ -187,7 +187,7 @@ class AdminController{
 		}
 		
 		$ru = "https://developer.microsoft.com/en-us/graph/quick-start?appID=_appId_&appName=_appName_&redirectUrl={$redirect_uri}&platform=option-php";
-		$deepLink = "/quickstart/graphIO?publicClientSupport=false&appName=oneindex&redirectUrl={$redirect_uri}&allowImplicitFlow=false&ru=".urlencode($ru);
+		$deepLink = "/quickstart/graphIO?publicClientSupport=false&appName=odtestapp&redirectUrl={$redirect_uri}&allowImplicitFlow=false&ru=".urlencode($ru);
 		$app_url = "https://apps.dev.microsoft.com/?deepLink=".urlencode($deepLink);
 		return view::load('install/install_1')->with('title','安装程序')
 						->with('redirect_uri', $redirect_uri)
