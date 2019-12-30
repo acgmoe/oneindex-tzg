@@ -3,13 +3,15 @@
 原项目：[donwa/oneindex](https://github.com/donwa/oneindex)
 
 ## 功能：
-不占用服务器空间，不走服务器流量，  
-
+不占用服务器空间，不走服务器流量，   
 直接列出 OneDrive 目录，文件直链下载。  
 
 ## 示例站
 [TZG OneDrive](https://tzg6.app)   
-示例站正在使用[阿里云ECS](https://promotion.aliyun.com/ntms/act/qwbk.html?userCode=4wz5xqgf) 及OneIndex - TZG 开发版。
+示例站正在使用[阿里云ECS](https://promotion.aliyun.com/ntms/act/qwbk.html?userCode=4wz5xqgf) 及OneIndex - TZG。
+
+## 跳转页面
+oneindex-tzg使用了自己的跳转页面进行跳转。如果你希望自己搭建一个跳转页面，请切换到"jump-page"分支，并下载"index.html"，然后找一个喜欢的地方进行部署。
 
 ## 安装运行
 
